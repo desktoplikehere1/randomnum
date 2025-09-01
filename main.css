@@ -1,0 +1,40 @@
+body{
+    background-color: lightgray;
+}
+#container{
+    text-align: center;
+    margin-top: 200px;
+}
+h1{
+    color:rgb(94, 192, 224);
+    margin-bottom: 10px;
+}
+#guess{
+    size: 1.5rem;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    border-color: black;
+}
+#labelGuess{
+    font-size: 1.5rem;
+    color: rgb(35, 35, 214);
+}
+#sumbit{
+    background-color:rgb(35, 35, 219);
+    border-radius: 10px;
+    border-color: rgb(212, 206, 206);
+    margin-bottom: 0px;
+    font-size: 1.1rem;
+}
+button:hover{
+    background-color: rgb(72, 72, 235);
+    border-radius: 10px;
+    border-color: rgb(240, 232, 232);
+    font-size: 1.1rem;
+}
+button:active{
+    background-color: rgb(92, 92, 209);
+    border-radius: 10px;
+    border-color: rgb(243, 236, 236);
+    font-size: 1.1rem;
+}
