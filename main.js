@@ -4,6 +4,7 @@ function tryGuess(){
     const guess = document.getElementById("guess");
     const res = document.getElementById("res");
     const a = document.getElementById("a")
+    a.textContent = "";
     let userGuess = Number(guess.value);
     guesses++;
     if (userGuess === number){
